@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator app</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <h1 class="calc">calc</h1>
+      <div class="theme-btn">
+        <p class="theme">Theme</p>
+        <div class="for-input">
+          <div class="btn-123">
+            <p class="num">1</p>
+            <p class="num">2</p>
+            <p class="num">3</p>
+          </div>
+          <input type="range" min="1" max="3" value="1" id="rangeInput" />
+        </div>
+      </div>
+    </div>
+    <!-- number result section -->
+    <div class="number-result">0</div>
+    <!-- important section of numbers with btn -->
+    <div class="number-btn-section">
+      <button value="7" class="number">7</button>
+      <button value="8" class="number">8</button>
+      <button class="number">9</button>
+      <button class="del">DEL</button>
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>
+      <button class="number">+</button>
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button class="number">-</button>
+      <button class="number">.</button>
+      <button class="number">0</button>
+      <button class="number">/</button>
+      <button class="number">*</button>
+      <button class="reset-btn">RESET</button>
+      <button class="equal">=</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
